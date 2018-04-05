@@ -5,4 +5,5 @@ $app = new \Slim\App;
 $app->get ('api/customer', function(Request $request, Response $response) {
            echo 'Hiaaaa';
 });
+$app->run();
 
