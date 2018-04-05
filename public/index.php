@@ -11,4 +11,5 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 
     return $response;
 });
+require ../src/customer.php
 $app->run();
